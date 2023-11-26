@@ -1,0 +1,343 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav-btn{
+    font-size: larger;
+    border: 3px solid blue;
+    color: blue;
+    height: 5rem;
+    width: 17rem;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.nav-btn:hover{
+    background-color: rgb(253, 45, 142);
+    color: white;
+    border: 3px solid white;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    padding-right: 5%;
+
+    
+}
+
+.heading1{
+    padding-top: 8%;
+    padding-left: 8%;
+}
+
+.heading2{
+    
+    padding-left: 8%;
+}
+
+.para{
+   padding-left: 8%;
+}
+
+.btn1{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-left: 8%;
+    border-radius: 10px;
+    border-color:rgb(253, 45, 142);
+}
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.about1,.about2,.about3{
+    width: 25%;
+    height: 40vh;
+    border: 1px solid black;
+    margin-left: 6.5%;
+    box-shadow: 3px 3px 10px 10px grey;
+}
+.abt-image1,.abt-image2,.abt-image3{
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.abt-para h3{
+    margin-left: 20%;
+}
+.abt-para p{
+    font-size: 16px;
+    text-align: center;
+    padding: 1rem;
+}
+.abt-para3 h3{
+    margin-left: 30%;
+}
+.abt-para3 p{
+    font-size: 16px;
+    text-align: center;
+    padding: 1rem;
+}
+.about1:hover,.about2:hover,.about3:hover{
+    background-color: rgb(153, 208, 243);
+}
+/* .btn2{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    border-color: white;
+} */
+.btn1:hover{
+    transform: scale(1.15);
+}
+.btn2:hover{
+    transform: scale(1.15);
+}
+.card4{
+    box-shadow: 2px 2px;
+    border-radius: 10px;
+}
+.card4:hover{
+    transform: scale(1.1);
+}
+
+/* .card5{
+    margin-left: 50%;
+} */
+/* .bg-primary {
+    background-color: blue;
+    width: 100%;
+
+} */
+.about-card:hover{
+    transform: scale(0.9);
+}
+.read-more{
+    background-color: rgb(253, 45, 142);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 8%;
+    margin-left: 3%;
+}
+.read-more:hover{
+    transform: scale(0.9);
+}
+
+.service{
+    margin-top: 0.5%;
+}
+.service-container1,.service-container2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-card1{
+    width: 25%;
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.service-card2{
+    width: 25%;
+    border: 1px solid black;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+.service-card3{
+    width: 25%;
+    border: 1px solid black;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+.service-card4{
+    width: 25%;
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.service-card5{
+    width: 25%;
+    border: 1px solid black;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+.service-card6{
+    width: 25%;
+    border: 1px solid black;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+.service-card1 h3,.service-card2 h3,.service-card3 h3,.service-card1 p,.service-card2 p,.service-card3 p,.service-card4 h3,.service-card5 h3,.service-card6 h3,.service-card4 p,.service-card5 p,.service-card6 p{
+    margin-left: 3%;
+}
+.service-icon{
+    width: 25%;
+    height: 35%;
+    padding-top: 5%;
+    width: 25%;
+    margin-left: 3%;
+    
+}
+.service-card1:hover,.service-card2:hover,.service-card3:hover,.service-card4:hover,.service-card5:hover,.service-card6:hover{
+    background-color: black ;
+    opacity: 0.8;
+    
+}
+
+/* .card-img:hover{
+    transform: scale(1.1);
+} */
+
+.team-card:hover{
+    /* background-color: rgb(253, 45, 142);
+    opacity: 0.8; */
+    /* transform: scale(1.1); */
+    height: 450px;
+}
+.team-card{
+    box-shadow: 1px 1px 6px 6px gray;
+    width: 250px;
+    height: 400px;
+    transition: height 1s;
+    animation-name: example;
+  animation-duration: 5s;
+}
+
+@keyframes example {
+    from {background-color: rgb(253, 45, 142) ;}
+    to {background-color: blue;}
+  }
+
+ .gallery{
+    transition: transform .2s;
+ } 
+ .gallery:hover{
+    transform: scale(1.07); 
+ }
+ .testimonial-card{
+    background-color: rgb(252, 234, 237);
+    box-shadow: 2px 2px 8px 8px grey;
+ }
+
+ .testimonial{
+    margin-top: 15%;
+    margin-left: 15%;
+    font-style: oblique;
+ }
+ .testimonial-img{
+    width: 100%;
+    height: 100%;
+    padding-right: 20%;
+    
+ }
+ .testimonial-head{
+    margin-top: 20%;
+ }
+ .test-btn{
+    /* padding-top: 1%;
+    padding-bottom: 1%; */
+    padding: 1rem;
+    margin-top: 2%;
+    margin-left: 15%;
+    border-radius:8px;
+    
+    
+
+    border: none;
+   	   
+   	    color: white;
+        background-color:#0275d8;
+   	    border-radius: 5px;
+ }
+ .test-btn:hover{
+    background-color:rgb(253, 45, 142) ;
+    transform: scale(1.15);
+}
+
+.blog-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.blog1 img,.blog2 img,.blog3 img{
+    height: 50vh;
+    
+
+}
+.blog1,.blog2,.blog3{
+    border: 2px solid gray;
+    box-shadow: 2px 2px 8px 8px grey;
+    
+}
+.blog1{
+    width: 30rem;margin-left: 17%;
+}
+.blog2{
+    width: 30rem;margin-left: 3%;
+}
+.blog3{
+    width: 30rem;margin-left: 3%;
+}
+.bg-op{
+    background: url(img6.jpg);
+}
+.bg-op1{
+    background-color: #0275d8;
+    opacity: 0.5;
+}
+.contact-container{
+    width: 50%;margin-left: 25%;margin-bottom: 3%;
+  }
+
+@media screen and (max-width:600px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    .about-container{
+        display: inline-block;
+    }
+    .about1,.about2,.about3{
+        width: 85%;
+        height: 30vh;
+        border: 1px solid gray;
+        margin-left: 6.5%;
+        box-shadow: 3px 3px 10px 10px grey;
+        margin-top: 2%;
+    }
+    .service-container1,.service-container2{
+        width: 100%;
+        display: inline;
+    }
+    .service-card1,.service-card2,.service-card3,.service-card4,.service-card5,.service-card6{
+        width: 80%;
+    }
+    .service-card2,.service-card3,.service-card5,.service-card6{
+        margin-left: 10%;
+    }
+    .service{
+        margin-top: 3%;
+    }
+    .team-card{
+      margin-left: 15%;
+    }
+    .testimonial-card{
+        margin-left: 16%;
+    }
+    .testimonial-head{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .blog1,.blog2,.blog3{
+        margin-left: 12%;
+        margin-top: 2%;
+    }
+}
